@@ -1,9 +1,9 @@
-from scanner import *
-from win_scanner import *
-from lin_scanner import *
+from Interfaces.scanner import *
+from Scanner.win_scanner import WinScanner
+from Scanner.lin_scanner import LinScanner
 from platform import system
 
-from win_scanner import WinScanner
+from Scanner.win_scanner import WinScanner
 class Context():
     
     def __init__(self, scanner: Scanner) -> None:
