@@ -18,14 +18,12 @@ class Context():
     def scanner(self, scanner: Scanner) -> None:
         self._scanner = scanner
         
-    def scan_files(self) -> None:
-        self._scanner.scan_disk('C:\\')
+    def scan_files(self, path: Path) -> list:
+        return self._scanner.scan_disk(path)
+        
         
 
 if __name__ == "__main__":
     context = Context(WinScanner())
-    context.scan_files()
-
-    context.scanner = LinScanner()
-    
-    context.scan_files()
+    test = context.scan_files('F:\\')
+    print(test)
