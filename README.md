@@ -1,13 +1,13 @@
 # PyDisk
 
-Strategia wygląda ok.
+WinScan daje rade, a przynajmniej na to wygląda.
+Hashowanie można wprowadzić, aby było do szukania duplikatów, ale po co?
 
-Czas dodać faktyczne funkcjonalności i ewentualnie rozszerzyć ją na Pakowacza oraz usuwacza.
+Zipowanie pewnie poleci też niebawem, zasada będzie podobna, usuwanie też.
 
-- Dane trzymane będa w dataclass -> Najpewniej 1 plik = 1 klasa
-- GUI Tkinter  -> Naprawdę nie chce tego robić
-- Potem jeszcze biblioteka, aby było w .exe
-- Scan całego dysku, dopiero GUI będzie filtrować, to co nie ma być wyświetlane
-- Kurwa mać.
+Dalej zostaje problem z GUI, ktoś chętny? :)
 
-Pozdrawiam.
+Dla mnie:
+
+- Poczytać więcej o Pathlibie, obstawiam on uratuje moją sytuację z obsługą plików
+- No i fajen
