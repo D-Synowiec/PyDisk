@@ -25,5 +25,5 @@ class Context():
 
 if __name__ == "__main__":
     context = Context(WinScanner())
-    test = context.scan_files('F:\\')
-    print(test[0])
+    test = context.scan_files('C:\\Test')
+    print(test)
