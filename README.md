@@ -2,10 +2,6 @@
 
 *This readme works rn as info spreader, will write it correctly later.*
 
-**For now, you need to run it in Virtual Environment!** 
-
-*Check [here](https://stackoverflow.com/questions/714063/importing-modules-from-parent-folder/50194143#50194143) how to do it.*
-
 ## Scanner
 
 - [FileClass](Scanner/DataClasses/fileClass.py) - Class to hold every single file -> Also hash it to duplicate searching
@@ -16,7 +12,7 @@
 
 ## Archiver
 
-Static as well.
+It needs to work with DataClasses - Mainly connected with GUI. Pretty simple I think?
 
 ```py
 Archiver(pathToArchive: Path, listOfFiles: list [fileClass])
@@ -24,8 +20,8 @@ Archiver(pathToArchive: Path, listOfFiles: list [fileClass])
 
 ## Deleter 
 
-~~Idk if it should be in FileClass or directly in other class, to consider :)~~
-
-Class with static methods
+Idk if it should be in FileClass or directly in other class, to consider :)
 
 
+
+It would be nice to atleast tell me, that you're watching this repo :).
