@@ -1,6 +1,7 @@
 from PyDisk.Scanner.Strategy import Context
 from PyDisk.Scanner.OSScanners.win_scanner import WinScanner
 from PyDisk.Deleter.Deleter import Deleter
+from PyDisk.Archiver.Archiver import Archiver
 
 # Test playground; Later main point of program
 if __name__ == "__main__":
@@ -8,6 +9,7 @@ if __name__ == "__main__":
     test = context.scan_files('C:\\Test')
     print(test)
     
-    testFile = [test[0]]
-    Deleter.deleteFile(testFile)
-    #print('Deleted!', testFile.name)
+    # testFile = [test[0]]
+    # Deleter.deleteFile(testFile)
+    Archiver.archiveFiles(test, 'C:\\Test\\Hardcore-TestWithDelete.zip', True)
+ 

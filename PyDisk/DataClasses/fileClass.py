@@ -10,7 +10,7 @@ class FileClass:
     size: int = field(init=False) # In bytes
     extension: str = field(init=False)
     path: Path
-    hash: str = field(init=False)
+    hash: str = field(init=False, repr=False)
     
     def __post_init__(self):
         self.name = pathlib.Path(self.path).name
