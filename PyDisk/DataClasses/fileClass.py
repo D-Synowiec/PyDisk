@@ -16,7 +16,7 @@ class FileClass:
         self.name = pathlib.Path(self.path).name
         self.size = os.path.getsize(self.path)
         self.extension = pathlib.Path(self.path).suffix
-        self.hash = self.hash_file()
+        # self.hash = self.hash_file() # It needs to lanch, when you need it, not on init check Issue #2
     
     def hash_file(self) -> str:
         h_sha256 = hashlib.sha256()
