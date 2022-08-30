@@ -1,6 +1,6 @@
 from pathlib import Path
 import string
-from Interfaces.scanner import Scanner
+from PyDisk.Scanner.Interfaces.scanner import Scanner
 
 class LinScanner(Scanner):
     def scan_disk(self, path: string):

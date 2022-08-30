@@ -1,6 +1,6 @@
 from pathlib import Path
-from Interfaces.scanner import Scanner
-from DataClasses.fileClass import FileClass
+from PyDisk.Scanner.Interfaces.scanner import Scanner
+from PyDisk.DataClasses.fileClass import FileClass
 import os
 
 class WinScanner(Scanner):

@@ -1,6 +1,6 @@
-from Interfaces.scanner import *
-from OSScanners.win_scanner import WinScanner
-from OSScanners.lin_scanner import LinScanner
+from PyDisk.Scanner.Interfaces.scanner import *
+from PyDisk.Scanner.OSScanners.win_scanner import WinScanner
+from PyDisk.Scanner.OSScanners.lin_scanner import LinScanner
 from platform import system
 
 class Context():
