@@ -8,11 +8,11 @@
 
 ## Scanner
 
-- [FileClass](Scanner/DataClasses/fileClass.py) - Class to hold every single file -> Also hash it to duplicate searching
-- [win_scanner](Scanner/OSScanners/win_scanner.py) - Scans files. I think it would work with Linux, but for Strategy purpose it's here
-- [lin_scanner](Scanner/OSScanners/lin_scanner.py) - Just to test
-- [Strategy](Scanner/Strategy.py) - Main point to run a strategy and backend of scanning
-- [Deleter](Deleter/Deleter.py) - Class with static methods to remove files.
+- [FileClass](PyDisk/DataClasses/fileClass.py) - Class to hold every single file -> Also hash it to duplicate searching
+- [win_scanner](PyDisk/Scanner/OSScanners/win_scanner.py) - Scans files. I think it would work with Linux, but for Strategy purpose it's here
+- [lin_scanner](PyDisk/Scanner/OSScanners/lin_scanner.py) - Just to test
+- [Strategy](PyDisk/Scanner/Strategy.py) - Main point to run a strategy and backend of scanning
+- [Deleter](PyDisk/Deleter/Deleter.py) - Class with static methods to remove files.
 
 
 ## Archiver
