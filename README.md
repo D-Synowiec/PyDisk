@@ -16,15 +16,7 @@ Middleware (Logic-GUI connector), should be easy, but first of all, We need that
 
 ## Duplicate-Finder
 
-Hashing is ready - But before that we can check other things before hashing (it's a bit heavy).
-
-- File extension
-- File size
-- Hashes
-
-Main idea is: Check if in list are files with the same size. It can be sus, then check if extensions are the same (This can happen) - but I'm not so sure about it. And then hash this files and compare them.
-
-`NoDuplicates.find_sus_files(files: list[FileClass]) -> list[list[FileClass]]` then for each list check, if extenstions are the same `NoDuplicates.compare_extensions(sus_files: list[list[FileClass]] -> list[list[FileClass]]` Finally hash files and check if hash is the same. If yes, they are duplicates.
+Skipping for now.
 
 ## Scanner
 
