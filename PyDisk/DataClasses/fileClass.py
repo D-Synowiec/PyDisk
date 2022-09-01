@@ -18,7 +18,7 @@ class FileClass:
         self.extension = pathlib.Path(self.path).suffix
         # self.hash = self.hash_file() # It needs to lanch, when you need it, not on init check Issue #2
     
-    def hash_file(self) -> str:
+    def hash_file(self) -> None:
         h_sha256 = hashlib.sha256()
         
         with open(self.path,'rb') as file:
@@ -26,6 +26,5 @@ class FileClass:
             while chunk != b'':
                 chunk = file.read(1024)
                 h_sha256.update(chunk)
-                
-        return h_sha256.hexdigest()
-    
+                    
+        self.hash = h_sha256.hexdigest()
