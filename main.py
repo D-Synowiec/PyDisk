@@ -5,11 +5,5 @@ from PyDisk.Archiver.Archiver import Archiver
 
 # Test playground; Later main point of program
 if __name__ == "__main__":
-    context = Context(WinScanner())
-    test = context.scan_files('C:\\Test')
-    print(test)
-    
-    # testFile = [test[0]]
-    # Deleter.deleteFile(testFile)
-    Archiver.archiveFiles(test, 'C:\\Test\\Hardcore-TestWithDelete.zip', True)
+    pass
  
